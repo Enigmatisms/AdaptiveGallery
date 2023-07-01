@@ -3,6 +3,12 @@ Gallery for AdaPT renderer. The repo holds some good-looking rendering results a
 
 Note that some of the models come from [TurboSquid](https://www.turbosquid.com/) and [Sketchup 3D warehouse](https://3dwarehouse.sketchup.com/). If the usage of some models violates your copyright, please contact me for removal.
 
+##### Bathroom scene
+
+Original scene can be found here: [Blendswap](http://www.blendswap.com/blends/view/73937). I made a few modifications (like the bathtub), and since I can't obtain the original texture and material, I re-created the scene (which is about 400k primitives, 8 bounces, CUDA backend 0.2fps for BDPT, 1.8fps for PT).
+
+<p align="center"><img src="https://github.com/Enigmatisms/AdaptiveGallery/assets/46109954/8515ab2f-d008-44db-812e-6c99786bb602"/></p>
+
 ##### material orb scene (~500k primitives, 24 bounces, CUDA backend 16fps)
 
 <p align="center"><img src="https://github.com/Enigmatisms/AdaPT/assets/46109954/79754d30-1ce6-4ab2-a382-42010ed7c5b5"/></p>
