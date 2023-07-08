@@ -3,6 +3,14 @@ Gallery for my [AdaPT renderer](https://github.com/Enigmatisms/AdaPT). The repo 
 
 Note that some of the models come from [TurboSquid](https://www.turbosquid.com/) and [Sketchup 3D warehouse](https://3dwarehouse.sketchup.com/). If the usage of some models violates your copyright, please contact me for removal.
 
+##### The Helmet of Vader
+
+|Lambertian|Frensel Blend|Glass Transmit|
+|:---:|:---:|:---:|
+|   ![lambertian-vader](https://github.com/Enigmatisms/AdaPT/assets/46109954/636774d9-d541-4561-aa56-80a4c5f7d2ba)|![fresnel-vader](https://github.com/Enigmatisms/AdaPT/assets/46109954/e1c70c7f-4ba5-49e2-be10-a8bdddf65fa1)|             ![glass-vader](https://github.com/Enigmatisms/AdaPT/assets/46109954/1156f1bf-5cb6-4ac8-b755-f616ec47670c)|
+|Blinn Phong Glossy| Modified Phong (incorrect)|Modified Phong (correct) |
+|![blinn-phong-vader](https://github.com/Enigmatisms/AdaPT/assets/46109954/30a28f2b-9116-48a0-adcf-e6f2b28e8424)|![mod-phong-vader](https://github.com/Enigmatisms/AdaPT/assets/46109954/f5cb7540-d0f4-47fd-a3e2-774bc80e2432)|         ![correct-mod-phong](https://github.com/Enigmatisms/AdaPT/assets/46109954/dfa42a42-b5da-4f07-9656-aecd6e305976)|
+
 ##### Bathroom scene
 
 Original scene can be found here: [Blendswap](http://www.blendswap.com/blends/view/73937). I made a few modifications (like the bathtub), and since I can't obtain the original texture and material, I re-created the scene (which is about 400k primitives, 8 bounces, CUDA backend 0.2fps for BDPT, 1.8fps for PT).
