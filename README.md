@@ -10,12 +10,25 @@ Note that some of the models come from [TurboSquid](https://www.turbosquid.com/)
 |   ![lambertian-vader](https://github.com/Enigmatisms/AdaPT/assets/46109954/636774d9-d541-4561-aa56-80a4c5f7d2ba)|![fresnel-vader](https://github.com/Enigmatisms/AdaPT/assets/46109954/e1c70c7f-4ba5-49e2-be10-a8bdddf65fa1)|             ![glass-vader](https://github.com/Enigmatisms/AdaPT/assets/46109954/1156f1bf-5cb6-4ac8-b755-f616ec47670c)|
 |Blinn Phong Glossy| Modified Phong (incorrect)|Modified Phong (correct) |
 |![blinn-phong-vader](https://github.com/Enigmatisms/AdaPT/assets/46109954/30a28f2b-9116-48a0-adcf-e6f2b28e8424)|![mod-phong-vader](https://github.com/Enigmatisms/AdaPT/assets/46109954/f5cb7540-d0f4-47fd-a3e2-774bc80e2432)|         ![correct-mod-phong](https://github.com/Enigmatisms/AdaPT/assets/46109954/dfa42a42-b5da-4f07-9656-aecd6e305976)|
+|Oren-Nayar|Smooth GGX|Rougher GGX|
+|![oren-nayar-vader](https://github.com/Enigmatisms/AdaptiveGallery/assets/46109954/36087bbf-d925-4d04-b2f1-faab4aeef6e6)|![microfacet-vader-0 001-rough](https://github.com/Enigmatisms/AdaptiveGallery/assets/46109954/63150d77-4510-48aa-975c-c7d3a71b4461)|![microfacet-vader-0 05-rough](https://github.com/Enigmatisms/AdaptiveGallery/assets/46109954/97c9c5eb-e575-4726-bc1c-144b71b0ad5d)|
+|Thin coating plastic|Lambertian trans|Bump mapping|
+|![plastic-vader](https://github.com/Enigmatisms/AdaptiveGallery/assets/46109954/05bb8045-929b-476f-9296-d99f0f92f810)|![lambertian-trans](https://github.com/Enigmatisms/AdaptiveGallery/assets/46109954/93849ff9-2570-48ea-a241-546ae1c4a9dd)|![bumped-oren-nayar-vader](https://github.com/Enigmatisms/AdaptiveGallery/assets/46109954/c375fc9e-38ec-4f72-a0aa-fbed22fe634c)|
+
+#### Sports car
+
+This scene has ~290k primitives, 16 bounces, with many different BxDFs:
+Front view:
+<p align="center"><img src="https://github.com/Enigmatisms/AdaPT/assets/46109954/b480b716-f6f2-4163-86d9-3b87591297de"/></p>
+
+Back view:
+<p align="center"><img src="https://github.com/Enigmatisms/AdaptiveGallery/assets/46109954/23b7c7a1-acc8-439f-a91a-903fdc28a381"/></p>
 
 ##### Bathroom scene
 
 Original scene can be found here: [Blendswap](http://www.blendswap.com/blends/view/73937). I made a few modifications (like the bathtub), and since I can't obtain the original texture and material, I re-created the scene (which is about 400k primitives, 8 bounces, CUDA backend 0.2fps for BDPT, 1.8fps for PT).
 
-<p align="center"><img src="https://github.com/Enigmatisms/AdaptiveGallery/assets/46109954/8515ab2f-d008-44db-812e-6c99786bb602"/></p>
+<p align="center"><img src="https://github.com/Enigmatisms/AdaPT/assets/46109954/69272001-8acf-4196-9451-cfd4830e4067"/></p>
 
 ##### material orb scene (~500k primitives, 24 bounces, CUDA backend 16fps)
 
@@ -23,7 +36,7 @@ Original scene can be found here: [Blendswap](http://www.blendswap.com/blends/vi
 
 ##### venus scene (shading normal, bump map and glossy reflection):
 
-<p align="center"><img src="https://github.com/Enigmatisms/AdaptiveGallery/assets/46109954/e1cf7fa0-6788-4539-8c62-56f1aedd818a"/></p>
+<p align="center"><img src="https://github.com/Enigmatisms/AdaptiveGallery/assets/46109954/e72cc048-c001-4d46-ae5f-828052c8cbfc"/></p>
 
 ##### skeleton scene (~100k faces):
 
@@ -45,5 +58,10 @@ Original scene can be found here: [Blendswap](http://www.blendswap.com/blends/vi
 
 ##### Bunny with shading normal & total reflection
 
-<p align="center"><img src="https://github.com/Enigmatisms/AdaptiveGallery/assets/46109954/1a850733-0833-4e44-aa0e-31a49ff815fb"/></p>
+<p align="center"><img src="https://github.com/Enigmatisms/AdaptiveGallery/assets/46109954/277c86e9-c407-4f14-9aa7-e8478878645b"/></p>
 
+##### Cornell sphere
+
+|Plastic ball|Lambertian Transmission|Mixture|
+|:-:|:-:|:-:|
+|![pbr-mix-balls-bdpt](https://github.com/Enigmatisms/AdaptiveGallery/assets/46109954/e0329c61-bd7a-4c9b-9c49-35731281b9f1)|![pbr-balls-mono-bdpt](https://github.com/Enigmatisms/AdaptiveGallery/assets/46109954/ca706645-6208-4105-bb0a-d596abc75a11)|![pbr-mix-balls-bdpt-strange](https://github.com/Enigmatisms/AdaptiveGallery/assets/46109954/6bb792f9-8c8a-4281-afe5-c7e9b5a76da3)|
