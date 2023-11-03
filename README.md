@@ -8,7 +8,7 @@ Note that some of the models come from [TurboSquid](https://www.turbosquid.com/)
 |Lambertian|Frensel Blend|Glass Transmit|
 |:---:|:---:|:---:|
 |   ![lambertian-vader](https://github.com/Enigmatisms/AdaPT/assets/46109954/636774d9-d541-4561-aa56-80a4c5f7d2ba)|![fresnel-vader](https://github.com/Enigmatisms/AdaPT/assets/46109954/e1c70c7f-4ba5-49e2-be10-a8bdddf65fa1)|             ![glass-vader](https://github.com/Enigmatisms/AdaPT/assets/46109954/1156f1bf-5cb6-4ac8-b755-f616ec47670c)|
-|Blinn Phong Glossy| Modified Phong (incorrect)|Modified Phong (correct) |
+|Blinn Phong Glossy| Modified Phong (no diffuse)|Modified Phong (all components) |
 |![blinn-phong-vader](https://github.com/Enigmatisms/AdaPT/assets/46109954/30a28f2b-9116-48a0-adcf-e6f2b28e8424)|![mod-phong-vader](https://github.com/Enigmatisms/AdaPT/assets/46109954/f5cb7540-d0f4-47fd-a3e2-774bc80e2432)|         ![correct-mod-phong](https://github.com/Enigmatisms/AdaPT/assets/46109954/dfa42a42-b5da-4f07-9656-aecd6e305976)|
 |Oren-Nayar|Smooth GGX|Rougher GGX|
 |![oren-nayar-vader](https://github.com/Enigmatisms/AdaptiveGallery/assets/46109954/36087bbf-d925-4d04-b2f1-faab4aeef6e6)|![microfacet-vader-0 001-rough](https://github.com/Enigmatisms/AdaptiveGallery/assets/46109954/63150d77-4510-48aa-975c-c7d3a71b4461)|![microfacet-vader-0 05-rough](https://github.com/Enigmatisms/AdaptiveGallery/assets/46109954/97c9c5eb-e575-4726-bc1c-144b71b0ad5d)|
