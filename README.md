@@ -24,6 +24,13 @@ Front view:
 Back view:
 <p align="center"><img src="https://github.com/Enigmatisms/AdaptiveGallery/assets/46109954/23b7c7a1-acc8-439f-a91a-903fdc28a381"/></p>
 
+**SSAO**: The following images are rendered using RTX3060-laptop with a interactive preview, without it, the rendering speed is 81 fps and 161 fps, respectively.
+
+|Lambo scene (67 fps)|Lambo-back scene (120 fps)|
+|:-:|:-:|
+|![pbr-lambo-ao](https://github.com/Enigmatisms/AdaPT/assets/46109954/3acf5890-0535-4d33-985f-e36cd952fdac)|![pbr-lambo-back-ao](https://github.com/Enigmatisms/AdaPT/assets/46109954/40d390eb-2c04-4cf5-85eb-ae30ff5364a9)|
+
+
 ##### Bathroom scene
 
 Original scene can be found here: [Blendswap](http://www.blendswap.com/blends/view/73937). I made a few modifications (like the bathtub), and since I can't obtain the original texture and material, I re-created the scene (which is about 400k primitives, 8 bounces, CUDA backend 0.2fps for BDPT, 1.8fps for PT).
