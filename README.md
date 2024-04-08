@@ -12,7 +12,7 @@ Note that some of the models come from [TurboSquid](https://www.turbosquid.com/)
 |![blinn-phong-vader](https://github.com/Enigmatisms/AdaPT/assets/46109954/30a28f2b-9116-48a0-adcf-e6f2b28e8424)|![mod-phong-vader](https://github.com/Enigmatisms/AdaPT/assets/46109954/f5cb7540-d0f4-47fd-a3e2-774bc80e2432)|         ![correct-mod-phong](https://github.com/Enigmatisms/AdaPT/assets/46109954/dfa42a42-b5da-4f07-9656-aecd6e305976)|
 |Oren-Nayar|Smooth GGX|Rougher GGX|
 |![oren-nayar-vader](https://github.com/Enigmatisms/AdaptiveGallery/assets/46109954/36087bbf-d925-4d04-b2f1-faab4aeef6e6)|![microfacet-vader-0 001-rough](https://github.com/Enigmatisms/AdaptiveGallery/assets/46109954/63150d77-4510-48aa-975c-c7d3a71b4461)|![microfacet-vader-0 05-rough](https://github.com/Enigmatisms/AdaptiveGallery/assets/46109954/97c9c5eb-e575-4726-bc1c-144b71b0ad5d)|
-|Thin coating plastic|Lambertian trans|Bump mapping|
+|Thin coating plastic|Lambertian trans|Normal mapping|
 |![plastic-vader](https://github.com/Enigmatisms/AdaptiveGallery/assets/46109954/05bb8045-929b-476f-9296-d99f0f92f810)|![lambertian-trans](https://github.com/Enigmatisms/AdaptiveGallery/assets/46109954/93849ff9-2570-48ea-a241-546ae1c4a9dd)|![bumped-oren-nayar-vader](https://github.com/Enigmatisms/AdaptiveGallery/assets/46109954/c375fc9e-38ec-4f72-a0aa-fbed22fe634c)|
 
 #### Sports car
