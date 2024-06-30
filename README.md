@@ -57,6 +57,16 @@ Original scene can be found here: [Blendswap](http://www.blendswap.com/blends/vi
 
 <p align="center"><img src="https://github.com/Enigmatisms/AdaPT/assets/46109954/d91b93e4-3084-419d-a310-a5dbb11d77ea"/></p>
 
+##### Storm troopers scene
+
+<p align="center"><img src="https://github.com/Enigmatisms/AdaPT/assets/46109954/038a7b15-3e88-40e2-82a9-0155ca10ade0"/></p>
+
+##### Heterogeneous medium rendering
+
+| Janga Smoke (RGB volume) | Desert Tornado (RGB volume) |
+| ------------------------- | --------------- |
+|![pbr-cbox-rgbvol-vpt-rgblight](https://github.com/Enigmatisms/AdaPT/assets/46109954/6bb9f35a-7323-432a-b319-7b04b96e91d0)|![pbr-cbox-rgbvol-vpt](https://github.com/Enigmatisms/AdaPT/assets/46109954/11f5a64e-4fa4-4ae1-9971-ba2bc40d8fc5)|
+
 ##### Bunny scenes (90k+ faces)
 
 | "Spotlight Foggy Bunnies" | "Three Bunnies" |
