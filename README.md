@@ -41,6 +41,16 @@ Original scene can be found here: [Blendswap](http://www.blendswap.com/blends/vi
 
 <p align="center"><img src="https://github.com/Enigmatisms/AdaPT/assets/46109954/79754d30-1ce6-4ab2-a382-42010ed7c5b5"/></p>
 
+##### Transient state rendering
+
+Note that the gifs presented here are made by compressed jpeg files and optimized (compressed gif). The actual number of images for making the gif is divided by 2, due to the large size of the resulting gif.
+
+|         Transient balls (camera unwarped[^foot])          |         Transient cornell box (camera warped[^foot])         |
+| :------------------------------------: | :---------------------------------: |
+|![ezgif-6-ae875d810c](https://github.com/Enigmatisms/AdaPT/assets/46109954/6f952018-a487-4b82-84c9-5f8c88f525f3)|![ezgif-4-ab2bd63172](https://user-images.githubusercontent.com/126778364/226910971-3764eb68-9e29-41bd-894d-4a27e9dc49d7.gif)|
+
+[^foot]: 'Camera unwarped' means the transient profile shows the time when a position in the scene is *hit* by emitter ray. 'Camera warped' means the transient profile shows the total time of a position being hit by the emitter ray which should finally transmits to the camera.
+
 ##### venus scene (shading normal, bump map and glossy reflection):
 
 <p align="center"><img src="https://github.com/Enigmatisms/AdaptiveGallery/assets/46109954/e72cc048-c001-4d46-ae5f-828052c8cbfc"/></p>
